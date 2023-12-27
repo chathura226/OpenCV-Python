@@ -5,7 +5,7 @@ import numpy as np
 # webcam
 frameWidth = 640
 frameHeight = 480
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10, 50)
