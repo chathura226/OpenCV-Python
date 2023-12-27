@@ -40,6 +40,7 @@ while True:
     # read() will return whether read successfully and the image
     success, img = cap.read()
     cv2.imshow("Video", img)
-    # adding a delay and look for keypress 'q' for breaking loop if user want to stop, otherwise it will stop automatically after playing whole video
+    # adding a delay and look for keypress 'q' for breaking loop if user want to stop,
+    # otherwise it will stop automatically after playing whole video
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
